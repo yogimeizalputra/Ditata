@@ -2,6 +2,7 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 import Contact from './components/Contact';
 import Feature from './components/Feature';
+import Footer from './components/Footer';
 import Intro from './components/Intro';
 import Navbar from './components/Navbar';
 import Price from './components/Price';
@@ -63,6 +64,7 @@ function App() {
       </Container>
       <Container>
         <Contact />
+        <Footer />
       </Container>
     </>
   );
