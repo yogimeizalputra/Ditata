@@ -1,5 +1,6 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
+import Contact from './components/Contact';
 import Feature from './components/Feature';
 import Intro from './components/Intro';
 import Navbar from './components/Navbar';
@@ -59,6 +60,9 @@ function App() {
       <Container>
         <Price />
         <PriceShape />
+      </Container>
+      <Container>
+        <Contact />
       </Container>
     </>
   );
